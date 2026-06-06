@@ -1065,10 +1065,10 @@
           <button class="backup-btn" onclick="hardRefreshFromCloud()" style="background:linear-gradient(135deg, #e53e3e, #c53030);color:white;">🔄 Refresh Total</button>
         </div>
         <p class="backup-note">
-          🔥 <strong>VERSI 38.0 - PURE GOOGLE SHEET DATABASE:</strong><br>
+          🔥 <strong>VERSI 38 GOOGLE SHEET DATABASE:</strong><br>
           • ✅ Semua data tersimpan di Google Sheet (Cloud)<br>
-          • ✅ Tidak menggunakan LocalStorage / IndexedDB<br>
-          • ✅ Instant Delete saat utang LUNAS (sisa = 0)<br>
+          • ✅ Tidak menggunakan LocalStorage <br>
+          • ✅ Instant Delete saat utang LUNAS<br>
           • ✅ Real-time sync multi device<br>
           • ✅ Data langsung dihapus permanen dari database<br>
           • ✅ Sistem pembayaran diperbaiki total
@@ -1121,9 +1121,9 @@
   </div>
 
   <div id="gscriptConfigArea" style="display: none;">
-    <input type="hidden" id="webAppUrl" value="https://script.google.com/macros/s/AKfycbzgUFlFuzpNC66b7FTs-Rl4_WHmMJJJbRUVlvu1ZaLXTceMPbaEw9VpN7YdAU8LYoqK/exec">
+    <input type="hidden" id="webAppUrl" value="https://script.google.com/macros/s/AKfycbx87qvX-aZ9qtmbWxwvJvUVkky3rNDlfEPkz3A7Vy_PpNrlZ6aIlyE0kzJMV-1AbTTV/exec">
     <input type="hidden" id="spreadsheetUrl" value="">
-    <input type="hidden" id="deployId" value="AKfycbzgUFlFuzpNC66b7FTs-Rl4_WHmMJJJbRUVlvu1ZaLXTceMPbaEw9VpN7YdAU8LYoqK">
+    <input type="hidden" id="deployId" value="AKfycbx87qvX-aZ9qtmbWxwvJvUVkky3rNDlfEPkz3A7Vy_PpNrlZ6aIlyE0kzJMV-1AbTTV">
   </div>
 
   <script>
@@ -1156,7 +1156,7 @@
       if (hiddenInput && hiddenInput.value) {
         return hiddenInput.value;
       }
-      return "https://script.google.com/macros/s/AKfycbzgUFlFuzpNC66b7FTs-Rl4_WHmMJJJbRUVlvu1ZaLXTceMPbaEw9VpN7YdAU8LYoqK/exec";
+      return "https://script.google.com/macros/s/AKfycbx87qvX-aZ9qtmbWxwvJvUVkky3rNDlfEPkz3A7Vy_PpNrlZ6aIlyE0kzJMV-1AbTTV/exec";
     }
     
     function getDeviceId() {
